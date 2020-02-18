@@ -25,4 +25,4 @@ the browser will finally fetch the file containing that string and failed to dis
 
 ## Configuration problem
 
-In the mentioned project, loader configurations in `webpack/loaders/files.js` and `webpack/loaders/fonts.js` may match a same file (`.svg` or `.png` file) to a same loader and cause the issue. But keeping this can help(?) us deal with how webpack generate bundles.
+In the mentioned project, loader configurations in `webpack/loaders/files.js` and `webpack/loaders/fonts.js` may match a same file (`.svg` or `.png` file) to a same loader and cause the issue. But keeping this can help(?) us to know more about how webpack generate bundles.
